@@ -1,4 +1,16 @@
 
+
+/* VARIABLES */
+
+:root {
+  --primary-color: #F6FFF8;
+  --bg-color: #121212;
+  --tertiary-color: #141414;
+  --quaternary-color: #B8B8B8;
+}
+ 
+
+
 * {
   margin: 0;
   padding: 0;
@@ -15,7 +27,7 @@ body {
   overflow-x: hidden;
   position: relative;
   background-color: #121212 !important;
-  color: #F6FFF8 !important;
+  color: var(--primary-color) !important;
   font-family: 'Centra', sans-serif !important;
 }
 
@@ -75,19 +87,20 @@ nav.navbar {
 }
 nav.navbar.scrolled {
   padding: 0px 0;
-  background-color: #121212;
+  background-color: var(--bg-color);
 }
 nav.navbar a.navbar-brand {
     width: 9%;
 }
 nav.navbar .navbar-nav .nav-link.navbar-link {
   font-weight: 400;
-  color: #141414 !important;
+  color: var(--bg-color) !important;
   letter-spacing: 0.8px;
   padding: 0 25px;
   font-size: 18px;
   opacity: 0.75;
   margin-left: 80px;
+  
 }
 nav.navbar .navbar-nav a.nav-link.navbar-link:hover,
 nav.navbar .navbar-nav a.nav-link.navbar-link.active {
@@ -233,6 +246,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
   font-size: 20px;
   margin-bottom: 16px;
   display: inline-block;
+  border-radius: 5px;
 }
 .banner h1 {
   font-size: 65px;
@@ -323,7 +337,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
     position: absolute;
     width: 0;
     height: 100%;
-    background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+    background: bg;
     top: 0;
     left: 0;
     z-index: -1;
@@ -355,7 +369,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: var(--bg-color);
   opacity: 0.85;
   position: absolute;
   width: 100%;
@@ -402,7 +416,7 @@ nav.navbar .navbar-toggler[aria-expanded="true"] .navbar-toggler-icon {
 
 /************ Projects Css ************/
 .contact {
-  background: linear-gradient(90.21deg, #AA367C -5.91%, #4A2FBD 111.58%);
+  background: var(--bg-color);
   padding: 60px 0 200px 0;
 }
 .contact img {

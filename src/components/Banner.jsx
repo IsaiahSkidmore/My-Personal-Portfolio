@@ -49,13 +49,10 @@ export const Banner = () => {
             <Container>
                 <Row className="align">
                     <Col xs={12} md={6} xl={7}> 
-                    <span className="tagline">Welcome to my Portfolio</span>
+                    <span className="tagline">Welcome to my Portfolio!</span>
                     <h1>{`Hello! I'm a `} <span className="wrap">{text}</span></h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore impedit voluptatibus eligendi modi officia, hic corporis tempora ducimus repellat rerum porro amet quia ipsum veritatis, quibusdam nam, aliquam beatae similique! </p>
                     <button onClick={() => console.log('connect')} className="btn">Contact Me <ArrowRightCircle size={25} /></button>
-                    </Col>
-                    <Col xs={12} md={6} xl={5}>
-                        <img src="" alt="Header Img" />
                     </Col>
                 </Row>
             </Container>

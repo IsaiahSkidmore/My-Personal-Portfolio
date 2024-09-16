@@ -18,10 +18,36 @@ body {
   color: #141414;
 }
 
-h1, h2, h3, h4, h5, h6 {
-  font-weight: 700;
+p {
+  color: white !important;
 }
 
+h1, h2, h3, h4, h5, h6 {
+  font-weight: 700;
+  color: white !important;
+}
+
+.tagline {
+font-weight: 700;
+letter-spacing: 0.8px;
+/* padding: 8px 10px; */
+font-size: 20px;
+color: #f6fff8;
+margin-bottom: 16px;
+margin-top: 30px;
+display: inline-block;
+}
+
+.btn {
+  font-weight: 700;
+  color: #f6fff8 !important;
+  border: #f6fff8 1px solid !important;
+  border-radius: 5px;
+  padding: 10px 20px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  margin-top: 25px;
+}
 
 .me-auto {
   margin-left: auto !important;

@@ -6,6 +6,7 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import HomePage from './components/HomePage';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
+import ContactMe from './components/ContactMe';
 
 
 function Main() {
@@ -36,8 +37,8 @@ function Main() {
       <Route path="/projects" element={<Projects />} />
 
       <Route path="/about" element={<AboutMe />} />
-      {/* <Route path="/contact" element={<Contact />} />
-      <Route path="/resume" element={<Resume />} /> */}
+      <Route path="/contact" element={<ContactMe />} />
+      {/* <Route path="/resume" element={<Resume />} /> */}
 
       {/* Add your other routes here */}
     </Routes>

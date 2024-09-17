@@ -1,6 +1,8 @@
 import { useState, useEffect } from 'react';
 import { Container, Row, Col } from "react-bootstrap"
 import { ArrowRightCircle } from "react-bootstrap-icons";
+import { Link } from "react-router-dom";
+
 
 export const Banner = () => {
     const [loopNum, setLoopNum] = useState(0);
@@ -53,6 +55,7 @@ export const Banner = () => {
                     <h1>{`Hello! I'm a `} <span className="wrap">{text}</span></h1>
                     <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore impedit voluptatibus eligendi modi officia, hic corporis tempora ducimus repellat rerum porro amet quia ipsum veritatis, quibusdam nam, aliquam beatae similique! </p>
                     <button onClick={() => console.log('connect')} className="btn">Contact Me <ArrowRightCircle size={25} /></button>
+
                     </Col>
                 </Row>
             </Container>

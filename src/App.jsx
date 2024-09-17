@@ -3,9 +3,10 @@ import { BrowserRouter as Router, Routes, Route, useLocation } from 'react-route
 import NavBar from './components/Nav';
 import './App.css';
 import 'bootstrap/dist/css/bootstrap.min.css';
-import Banner from './components/Banner';
+import HomePage from './components/HomePage';
 import Projects from './components/Projects';
-import ProjectCard from './components/ProjectCard';
+import AboutMe from './components/AboutMe';
+
 
 function Main() {
   const location = useLocation();
@@ -18,10 +19,10 @@ function Main() {
       case '/about':
         document.title = 'About Me';
         break;
-        case '/resume':
+      case '/resume':
         document.title = 'Resume';
         break;
-        case '/contact':
+      case '/contact':
         document.title = 'Contact';
         break;
       default:
@@ -30,26 +31,27 @@ function Main() {
   }, [location]);
 
   return (
-    <div>
-      <NavBar />
-      <Routes>
-        <Route path="/projects" element={<Projects />} />
-        <Route path="/" element={<Banner />} />
-      </Routes>
-    </div>
+    <Routes>
+      <Route path="/" element={<HomePage />} />
+      <Route path="/projects" element={<Projects />} />
+
+      <Route path="/about" element={<AboutMe />} />
+      {/* <Route path="/contact" element={<Contact />} />
+      <Route path="/resume" element={<Resume />} /> */}
+
+      {/* Add your other routes here */}
+    </Routes>
   );
 }
 
 function App() {
   return (
-    <div>
     <Router>
+      <NavBar />
       <Main />
+      {/* <Footer /> */}
     </Router>
-    </div>
-    
   );
 }
 
 export default App;
-

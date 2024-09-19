@@ -122,6 +122,20 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   background-size: cover;
   background-repeat: no-repeat;
 }
+
+.btnLink {
+  text-decoration: none;
+}
+
+.banner a button:hover {
+  color: var(--primary-color);
+}
+
+.banner a button:active {
+  color: var(--primary-color) !important;
+}
+
+
 .banner .tagline {
   font-weight: 700;
   letter-spacing: 0.8px;
@@ -171,6 +185,9 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 .txt-rotate > .wrap {
   border-right: 0.08em solid #666 !important;
 }
+
+
+
 
 /************ Projects CSS ************/
 .project {

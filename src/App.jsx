@@ -7,6 +7,7 @@ import HomePage from './components/HomePage';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
 import ContactMe from './components/ContactMe';
+import Footer from './components/Footer';
 
 
 function Main() {
@@ -35,12 +36,8 @@ function Main() {
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/projects" element={<Projects />} />
-
       <Route path="/about" element={<AboutMe />} />
       <Route path="/contact" element={<ContactMe />} />
-      {/* <Route path="/resume" element={<Resume />} /> */}
-
-      {/* Add your other routes here */}
     </Routes>
   );
 }
@@ -50,7 +47,7 @@ function App() {
     <Router>
       <NavBar />
       <Main />
-      {/* <Footer /> */}
+      <Footer />
     </Router>
   );
 }

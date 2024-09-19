@@ -114,12 +114,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
     opacity: 1;
 }
 
-/************ Home Page About me ************/
-.homePageAboutMe {
-  padding: 80px 0;
-  position: relative;
-  background-color: var(--bg-color);
-}
 
 /************ Banner CSS ************/
 .banner {
@@ -161,7 +155,6 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   border: 2px solid var(--primary-color);
   font-weight: 700;
   font-size: 20px;
-  /* margin-top: 40px; */
   letter-spacing: 0.8px;
   display: flex;
   align-items: center;
@@ -180,7 +173,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   border-right: 0.08em solid #666 !important;
 }
 
-/************ Projects Css ************/
+/************ Projects CSS ************/
 .project {
   padding: 80px 0;
   position: relative;
@@ -211,25 +204,23 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   scale: 150%
 }
 
-/* About Me */
+/************ About Me CSS ************/
 
 .homePageAboutMe {
-  padding: 80px 0;
+  padding: 150px 0;
   position: relative;
-  background-color: var(--bg-color);
-
 }
 
 .about-me {
   padding: 110px 0;
   position: relative;
-  background-color: var(--bg-color);
 }
 
 .about-me h2, .homePageAboutMe h2 {
 	font-size: 45px;
 	font-weight: 700;
   text-align: center;
+  color: var(--primary-color) !important;
 }
 
 .about-me p, .homePageAboutMe p {
@@ -259,7 +250,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 
 
 
-/* Projects */
+/************ Projects CSS ************/
 
 .proj-imgbx {
   position: relative;
@@ -314,7 +305,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   z-index: -4;
 }
 
-/************ Projects Css ************/
+/************ Contact CSS ************/
 .contact {
   background: var(--bg-color);
   padding: 60px 0 200px 0;

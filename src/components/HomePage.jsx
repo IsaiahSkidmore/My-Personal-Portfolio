@@ -1,15 +1,13 @@
 import HomeAboutMe from './HomeAboutMe';
 import Banner from './Banner';
-import Projects from './Projects';
+import HomePageProjectCards from './HomePageProjectCards';
 
 export const HomePage = () => {
     return (
         <div>
             <Banner />
-            <div className='homePageAboutMe'>
             <HomeAboutMe />
-            </div>
-            <Projects />
+            <HomePageProjectCards />
         </div>
     );
 }

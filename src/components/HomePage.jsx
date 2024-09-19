@@ -1,4 +1,4 @@
-import AboutMe from './AboutMe';
+import HomeAboutMe from './HomeAboutMe';
 import Banner from './Banner';
 import Projects from './Projects';
 
@@ -7,7 +7,7 @@ export const HomePage = () => {
         <div>
             <Banner />
             <div className='homePageAboutMe'>
-            <AboutMe />
+            <HomeAboutMe />
             </div>
             <Projects />
         </div>

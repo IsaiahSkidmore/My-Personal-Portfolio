@@ -1,25 +1,27 @@
 import { Container, Row, Col } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCard";
+import SolidDollop from "../assets/Screenshot 2024-09-16 at 11.53.38 AM.png"
+import { Github } from "react-bootstrap-icons";
 
 export const Projects = () => {
     const projects = [
         {
-            title: 'Project 1',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.',
-            image: 'https://via.placeholder.com/150',
-            link: 'https://github.com'
+            title: <Github size={50} />,
+            description: 'Solid Dollop Memory Card Game',
+            image: SolidDollop,
+            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/'
         },
         {
-            title: 'Project 2',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.',
-            image: 'https://via.placeholder.com/150',
-            link: 'https://github.com'
+            title: <Github size={50} />,
+            description: 'Solid Dollop Memory Card Game',
+            image: SolidDollop,
+            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/'
         },
         {
-            title: 'Project 3',
-            description: 'Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam, voluptates.',
-            image: 'https://via.placeholder.com/150',
-            link: 'https://github.com'
+            title: <Github size={50} />,
+            description: 'Solid Dollop Memory Card Game',
+            image: SolidDollop,
+            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/'
         },
     ];
 
@@ -29,7 +31,6 @@ export const Projects = () => {
                 <Row>
                     <Col>
                     <h2>Projects</h2>
-                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus sed consectetur aliquam officiis iste molestias reprehenderit error architecto culpa, in distinctio praesentium velit illum dolorem hic! Provident iusto sequi laboriosam!</p>
                     </Col>
                 </Row>
 

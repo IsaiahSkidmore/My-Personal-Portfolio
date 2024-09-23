@@ -348,13 +348,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   background-color: var(--bg-color);
 }
 
-/* .contact-form .form-control {
-  width: 100%;
-  padding: 10px;
-  margin: 10px 0;
-  border: 1px solid #333;
-  border-radius: 5px;
-} */
+
 .error {
   color: red;
 }

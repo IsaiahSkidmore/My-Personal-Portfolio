@@ -2,6 +2,9 @@ import { Container, Row, Col } from "react-bootstrap"
 import { ProjectCard } from "./ProjectCard";
 import SolidDollop from "../assets/Screenshot 2024-09-16 at 11.53.38 AM.png"
 import { Github } from "react-bootstrap-icons";
+import Weather from "../assets/weather.jpg"
+import MovieSearch from "../assets/MovieSearch.jpeg"
+
 
 export const Projects = () => {
     const projects = [
@@ -9,19 +12,22 @@ export const Projects = () => {
             title: <Github size={50} />,
             description: 'Solid Dollop Memory Card Game',
             image: SolidDollop,
-            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/'
+            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/',
+            repo: 'https://github.com/haydencfb/solid-dollop-memory-card-game',
         },
         {
             title: <Github size={50} />,
-            description: 'Solid Dollop Memory Card Game',
-            image: SolidDollop,
-            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/'
+            description: '5 Day Weather Forecast',
+            image: Weather,
+            link: 'https://five-day-weather-forecast.onrender.com/',
+            repo: 'https://github.com/IsaiahSkidmore/5-Day-Weather-Forecast-Application',
         },
         {
             title: <Github size={50} />,
-            description: 'Solid Dollop Memory Card Game',
-            image: SolidDollop,
-            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/'
+            description: 'Movie Search',
+            image: MovieSearch,
+            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/',
+            repo: 'https://github.com/IsaiahSkidmore/5-Day-Weather-Forecast-Application',
         },
     ];
 

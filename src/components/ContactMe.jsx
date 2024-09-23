@@ -17,14 +17,14 @@ function ContactMe() {
       <Form>
         <div className="contact-container">
           <Form.Group className="mb-3 contact-form" controlId="Full Name">
-            <Form.Label>Name</Form.Label>
+            <Form.Label>Name*</Form.Label>
             <Form.Control type="input" placeholder="Full Name" onBlur={() => setNameTouched(true)} />
             {nameTouched && <div className="error">This field is required</div>}
           </Form.Group>
         </div>
         <div className="contact-container">
           <Form.Group className="mb-3 contact-form" controlId="exampleForm.ControlInput1">
-            <Form.Label>Email address</Form.Label>
+            <Form.Label>Email address*</Form.Label>
             <Form.Control type="email" placeholder="name@example.com" 
               onBlur={() => setEmailTouched(true)} 
               onChange={(e) => setEmail(e.target.value)}
@@ -34,13 +34,17 @@ function ContactMe() {
         </div>
         <div className="contact-container">
           <Form.Group className="mb-3 contact-form" controlId="exampleForm.ControlTextarea1">
-            <Form.Label>Message</Form.Label>
+            <Form.Label>Message*</Form.Label>
             <Form.Control as="textarea" placeholder="Message" rows={3} onBlur={() => setMessageTouched(true)} />
             {messageTouched && <div className="error">This field is required</div>}
           </Form.Group>
         </div>
       </Form>
+      <div className='submit-container'>
+      <button className="submit">Submit</button>
+      </div>
     </section>
+     
   );
 }
 

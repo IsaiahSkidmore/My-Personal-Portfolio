@@ -29,6 +29,7 @@ body {
   background-color: #121212 !important;
   color: var(--primary-color) !important;
   font-family: 'Centra', sans-serif !important;
+  height: 100vh;
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -327,18 +328,24 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 }
 
 /************ Contact CSS ************/
+.contact {
+  padding: 70px 0;
+  position: relative;
+  background-color: var(--bg-color);
+}
 
 
 /************ Footer Css ************/
 .footer {
   text-align: center;
+  background-color: var(--primary-color);
 }
 
 
 .socials {
-  margin-bottom: 20px;
-padding: 0px 50px 0px 50px;
-color: var(--primary-color);
+margin-bottom: 20px;
+padding: 10px 50px 0px 50px;
+color: var(--bg-color);
 }
 
 .socials:hover {

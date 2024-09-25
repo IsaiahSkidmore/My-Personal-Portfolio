@@ -439,7 +439,7 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
 
 
 /************ Footer Css ************/
-.footer li{
+.footer{
   text-align: center;
   background-color: var(--primary-color);
 }

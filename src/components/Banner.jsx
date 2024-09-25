@@ -53,7 +53,7 @@ export const Banner = () => {
                     <Col xs={12} md={6} xl={7}> 
                     <span className="tagline">Welcome to my Portfolio!</span>
                     <h1>{`Hello! I'm a `} <span className="wrap">{text}</span></h1>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore impedit voluptatibus eligendi modi officia, hic corporis tempora ducimus repellat rerum porro amet quia ipsum veritatis, quibusdam nam, aliquam beatae similique! </p>
+                    {/* <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Labore impedit voluptatibus eligendi modi officia, hic corporis tempora ducimus repellat rerum porro amet quia ipsum veritatis, quibusdam nam, aliquam beatae similique! </p> */}
                     <Link to="/contact" className='btnLink'>
                     <button onClick={() => console.log('connect')} className="btn">Contact Me <ArrowRightCircle size={25} /></button>
                     </Link>

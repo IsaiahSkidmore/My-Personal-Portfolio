@@ -34,6 +34,7 @@ function Main() {
   }, [location]);
 
   return (
+    <>
     <Routes>
       <Route path="/" element={<HomePage />} />
       <Route path="/projects" element={<Projects />} />
@@ -41,6 +42,7 @@ function Main() {
       <Route path="/contact" element={<ContactMe />} />
       <Route path='/resume' element={<Resume />} />
     </Routes>
+    </>
   );
 }
 

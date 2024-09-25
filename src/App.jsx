@@ -7,6 +7,7 @@ import HomePage from './components/HomePage';
 import Projects from './components/Projects';
 import AboutMe from './components/AboutMe';
 import ContactMe from './components/ContactMe';
+import Resume from './components/Resume';
 import Footer from './components/Footer';
 
 
@@ -38,6 +39,7 @@ function Main() {
       <Route path="/projects" element={<Projects />} />
       <Route path="/about" element={<AboutMe />} />
       <Route path="/contact" element={<ContactMe />} />
+      <Route path='/resume' element={<Resume />} />
     </Routes>
   );
 }

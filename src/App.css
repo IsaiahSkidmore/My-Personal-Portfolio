@@ -378,8 +378,68 @@ nav.navbar .navbar-nav a.nav-link.navbar-link.active {
   color: red;
 }
 
+/************ Resume CSS ************/
+
+
+.list {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+.list ul {
+  list-style-type: none; /* Remove bullet points */
+  padding: 50px;
+  margin: 0;
+  text-align: center; 
+  color: var(--primary-color);
+  background-color: #1F1F1F; 
+  border-radius: 10px; 
+  font-size: 36px;
+  font-weight: 500;
+}
+
+.list ul li {
+  padding: 30px;
+  margin: 25px 0; 
+  border: 1px solid var(--primary-color);
+  border-radius: 5px;
+  background-color: #2F2F2F; 
+}
+
+
+
+.btn-resume {
+  background-color: var(--primary-color);
+  color: var(--bg-color);
+  font-size: 20px;
+  font-weight: 700;
+  letter-spacing: 0.8px;
+  padding: 10px 205px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: 0.3s ease-in-out;
+  position: relative; 
+  top: 85px; 
+}
+
+.btn-resume:hover {
+  background-color: lightgray;
+  opacity: 90%;
+  
+}
+
+.button-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 45px;
+}
+
+
 /************ Footer Css ************/
-.footer {
+.footer li{
   text-align: center;
   background-color: var(--primary-color);
 }

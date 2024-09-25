@@ -2,12 +2,20 @@
 
 Welcome to my personal portfolio website! This project showcases my work as a full stack developer, highlighting projects, skills, and experiences that reflect my journey in software development.
 
+Website Link:
+
+https://jolly-paletas-380445.netlify.app/
+
 ## Features
 
 - **About Me**: A brief overview of who I am, my passion for coding, and my love for the outdoors.
 - **Projects**: A collection of projects I've worked on, with links to the live versions or repositories.
 - **Resume**: A list of technologies and tools that I am proficient in.
-- **Contact**: A section where you can reach out to me via email or LinkedIn.
+- **Contact**: A section where you can reach out to me via email or LinkedIn.  
+
+  
+
+
 
   
 
@@ -19,6 +27,14 @@ Welcome to my personal portfolio website! This project showcases my work as a fu
 - **React**
 - **Node.js**
 - **Git & GitHub**
+
+
+
+
+## Screenshot
+
+![Portfolio Screenshot](README-Image/Website.png)  
+
 
 ## Future Improvements
 

@@ -53,8 +53,8 @@ export const Projects = () => {
             title: <Github size={50} />,
             description: 'Movie Search',
             image: MovieSearch,
-            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/',
-            repo: 'https://github.com/IsaiahSkidmore/5-Day-Weather-Forecast-Application',
+            link: 'https://filmtacker.netlify.app/',
+            repo: 'https://github.com/IsaiahSkidmore/Film-Tracker',
 
         },
     ];

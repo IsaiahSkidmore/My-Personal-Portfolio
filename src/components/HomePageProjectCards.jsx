@@ -24,7 +24,7 @@ export const Projects = () => {
         },
         {
             title: <Github size={50} />,
-            description: 'Movie Search',
+            description: 'Film Tracker',
             image: MovieSearch,
             link: 'https://filmtacker.netlify.app/',
             repo: 'https://github.com/IsaiahSkidmore/Film-Tracker',

@@ -4,7 +4,7 @@ Welcome to my personal portfolio website! This project showcases my work as a fu
 
 Website Link:
 
-https://jolly-paletas-380445.netlify.app/
+https://isaiahskidmore.netlify.app/
 
 ## Features
 

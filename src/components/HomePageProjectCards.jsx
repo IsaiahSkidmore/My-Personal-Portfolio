@@ -10,10 +10,10 @@ export const Projects = () => {
     const projects = [
         {
             title: <Github size={50} />,
-            description: 'Solid Dollop Memory Card Game',
+            description: 'Mist: Game Search',
             image: SolidDollop,
-            link: 'https://haydencfb.github.io/solid-dollop-memory-card-game/',
-            repo: 'https://github.com/haydencfb/solid-dollop-memory-card-game',
+            link: 'https://mist-game.onrender.com/',
+            repo: 'https://github.com/haydencfb/mist-game',
         },
         {
             title: <Github size={50} />,

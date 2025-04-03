@@ -5,6 +5,7 @@ import { Github } from "react-bootstrap-icons";
 import Weather from "../assets/weather.jpg"
 import MovieSearch from "../assets/MovieSearch.jpeg"
 import MistLogo from "../assets/Mist-Logo.jpeg"
+import dncLogo from "../assets/DNC-BOT.jpeg"
 
 
 export const Projects = () => {
@@ -19,7 +20,7 @@ export const Projects = () => {
         {
             title: <Github size={50} />,
             description: 'Do Not Call Bot',
-            image: Weather,
+            image: dncLogo,
             link: 'https://dncbot.onrender.com/',
             repo: 'https://github.com/IsaiahSkidmore/DncBot',
         },

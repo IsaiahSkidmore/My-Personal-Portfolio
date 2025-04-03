@@ -18,10 +18,10 @@ export const Projects = () => {
         },
         {
             title: <Github size={50} />,
-            description: '5 Day Weather Forecast',
+            description: 'Do Not Call Bot',
             image: Weather,
-            link: 'https://five-day-weather-forecast.onrender.com/',
-            repo: 'https://github.com/IsaiahSkidmore/5-Day-Weather-Forecast-Application',
+            link: 'https://dncbot.onrender.com/',
+            repo: 'https://github.com/IsaiahSkidmore/DncBot',
         },
         {
             title: <Github size={50} />,

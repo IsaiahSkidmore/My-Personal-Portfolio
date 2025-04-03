@@ -4,6 +4,7 @@ import SolidDollop from "../assets/Screenshot 2024-09-16 at 11.53.38 AM.png"
 import { Github } from "react-bootstrap-icons";
 import Weather from "../assets/weather.jpg"
 import MovieSearch from "../assets/MovieSearch.jpeg"
+import MistLogo from "../assets/Mist-Logo.jpeg"
 
 
 export const Projects = () => {
@@ -11,7 +12,7 @@ export const Projects = () => {
         {
             title: <Github size={50} />,
             description: 'Mist: Game Search',
-            image: SolidDollop,
+            image: MistLogo,
             link: 'https://mist-game.onrender.com/',
             repo: 'https://github.com/haydencfb/mist-game',
         },
